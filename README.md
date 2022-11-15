@@ -1,4 +1,4 @@
-# Risk-Estimating
+# TripRisk
 Paper: TripRisk: Estimating the Anomaly Risk of Ride-hailing Trips in Real-time with Trajectory Data
 
 Dependencies  
