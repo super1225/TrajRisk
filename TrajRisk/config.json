@@ -1,0 +1,47 @@
+{
+    "routeid_num": 35516,
+    "speed_num": 30,
+    "dis_num": 30,
+    "max_neighbor_num": 50,
+    "time_segment": 60000,
+    "time_threshold": 6000,
+    "time_num": 24,
+    "max_len":300,
+    "dis_max":20000, 
+    "dis_min":0, 
+    "offset_max":20000,
+    "offset_min":0,
+    "lon_max": 1,
+    "lon_min": -67.87444,
+    "lat_max": 2.84951,
+    "lat_min": -32.18724,
+    "speed_max": 360,
+    "speed_min": 0,
+    "angle_max": 360,
+    "angle_min": 0,
+    "time_keep_max": 3600,
+    "time_keep_min": 0,
+    "avg_speed_max": 360,
+    "avg_speed_min": 0,
+    
+
+    "trajwindow_max_len": 500,
+
+    "segment": true,
+    "train_dataset_label": "/home/syy/project/data_www/label/",
+    "test_dataset_label": "/home/syy/project/data_www/label/",
+
+    "train_dataset_traj": "/home/syy/project/data_www/traj_in_city_55000161_train_precessed_feature.csv",
+    "test_dataset_traj": "/home/syy/project/data_www/traj_in_city_55000161_train_precessed_feature.csv",
+   
+    "train_dataset_route": "/home/syy/project/data_www/traj_in_sub1",
+    "test_dataset_route": "/home/syy/project/data_www/traj_in_sub1",
+    
+    "adj_path": "/home/syy/project/data_www/graph1/E.json",
+    "edge_path": "/home/syy/project/data_www/graph1/adj.csv",
+    "feature_path": "/home/syy/project/data_www/graph1/feature_graph.csv",
+
+    "label_filepath": "/home/syy/project/public_filter/battle/battle_lable/mark.csv",
+    "result_file": "/home/syy/project/paper/traj_gmm_vae/output/",
+    "length_threshold": 80
+}
